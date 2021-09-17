@@ -1,8 +1,8 @@
 import time
 import machine
 from umqttsimple import MQTTClient
-mqtt_server = 'mqttdns.eastus.cloudapp.azure.com'
-topic_sub = 'testin'
+mqtt_server = 'Ip address of the broker'
+topic_sub = 'topic'
 led=machine.Pin(2,machine.Pin.OUT)
 def sub_cb(topic, msg):
     try:
