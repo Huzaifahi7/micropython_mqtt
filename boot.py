@@ -9,9 +9,9 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-ssid = 'POCO M3'
-password = '123456789'
-mqtt_server = 'mqttdns.eastus.cloudapp.azure.com'
+ssid = 'Wifi name'
+password = 'wifi password'
+mqtt_server = 'Ip address of the broker'
 #EXAMPLE IP ADDRESS
 #mqtt_server = '192.168.1.144'
 client_id = ubinascii.hexlify(machine.unique_id())
